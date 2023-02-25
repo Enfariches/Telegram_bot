@@ -1,6 +1,6 @@
 import telebot
 from datetime import datetime
-bot = telebot.TeleBot("5625878280:AAF4kWU1MXmuzn759huVQsWzTnG7b0tA1Jo")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start'])
 def start(message):

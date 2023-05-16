@@ -1,3 +1,4 @@
+
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -56,8 +57,8 @@ class Parser:
             x += 1
 
     def output_txt(self):
-        with open('parser_list.txt', 'w') as f:
-            f.write("% ".join(i for i in self.lst_text))
+        with open('parser_list.txt', 'w', encoding='utf-8') as f:
+            f.write("Z ".join(i for i in self.lst_text))
 
 
 

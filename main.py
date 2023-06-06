@@ -7,7 +7,7 @@ import random
 import threading
 import pytz
 
-bot = telebot.TeleBot("5625878280:AAF4kWU1MXmuzn759huVQsWzTnG7b0tA1Jo")
+bot = telebot.TeleBot("")
 timer = {}
 
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
